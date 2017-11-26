@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDDFC15E1FCAC0A800A5480B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDFC15D1FCAC0A800A5480B /* AppDelegate.swift */; };
+		FDDFC1651FCAC0A800A5480B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDDFC1631FCAC0A800A5480B /* Main.storyboard */; };
+		FDDFC1671FCAC0A800A5480B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDDFC1661FCAC0A800A5480B /* Assets.xcassets */; };
+		FDDFC16A1FCAC0A800A5480B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDDFC1681FCAC0A800A5480B /* LaunchScreen.storyboard */; };
+		FDDFC1751FCAC0A800A5480B /* sound_e_scape_splitviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDFC1741FCAC0A800A5480B /* sound_e_scape_splitviewTests.swift */; };
+		FDDFC1801FCAC0A800A5480B /* sound_e_scape_splitviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDFC17F1FCAC0A800A5480B /* sound_e_scape_splitviewUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FDDFC1711FCAC0A800A5480B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDDFC1521FCAC0A800A5480B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDDFC1591FCAC0A800A5480B;
+			remoteInfo = "sound(e)scape-splitview";
+		};
+		FDDFC17C1FCAC0A800A5480B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDDFC1521FCAC0A800A5480B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDDFC1591FCAC0A800A5480B;
+			remoteInfo = "sound(e)scape-splitview";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FDDFC15A1FCAC0A800A5480B /* sound(e)scape-splitview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "sound(e)scape-splitview.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDDFC15D1FCAC0A800A5480B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FDDFC1641FCAC0A800A5480B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FDDFC1661FCAC0A800A5480B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDDFC1691FCAC0A800A5480B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FDDFC16B1FCAC0A800A5480B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDDFC1701FCAC0A800A5480B /* sound(e)scape-splitviewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "sound(e)scape-splitviewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDDFC1741FCAC0A800A5480B /* sound_e_scape_splitviewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sound_e_scape_splitviewTests.swift; sourceTree = "<group>"; };
+		FDDFC1761FCAC0A800A5480B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDDFC17B1FCAC0A800A5480B /* sound(e)scape-splitviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "sound(e)scape-splitviewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDDFC17F1FCAC0A800A5480B /* sound_e_scape_splitviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sound_e_scape_splitviewUITests.swift; sourceTree = "<group>"; };
+		FDDFC1811FCAC0A800A5480B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDDFC1571FCAC0A800A5480B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDDFC16D1FCAC0A800A5480B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDDFC1781FCAC0A800A5480B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDDFC1511FCAC0A800A5480B = {
+			isa = PBXGroup;
+			children = (
+				FDDFC15C1FCAC0A800A5480B /* sound(e)scape-splitview */,
+				FDDFC1731FCAC0A800A5480B /* sound(e)scape-splitviewTests */,
+				FDDFC17E1FCAC0A800A5480B /* sound(e)scape-splitviewUITests */,
+				FDDFC15B1FCAC0A800A5480B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDDFC15B1FCAC0A800A5480B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDDFC15A1FCAC0A800A5480B /* sound(e)scape-splitview.app */,
+				FDDFC1701FCAC0A800A5480B /* sound(e)scape-splitviewTests.xctest */,
+				FDDFC17B1FCAC0A800A5480B /* sound(e)scape-splitviewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDDFC15C1FCAC0A800A5480B /* sound(e)scape-splitview */ = {
+			isa = PBXGroup;
+			children = (
+				FDDFC15D1FCAC0A800A5480B /* AppDelegate.swift */,
+				FDDFC1631FCAC0A800A5480B /* Main.storyboard */,
+				FDDFC1661FCAC0A800A5480B /* Assets.xcassets */,
+				FDDFC1681FCAC0A800A5480B /* LaunchScreen.storyboard */,
+				FDDFC16B1FCAC0A800A5480B /* Info.plist */,
+			);
+			path = "sound(e)scape-splitview";
+			sourceTree = "<group>";
+		};
+		FDDFC1731FCAC0A800A5480B /* sound(e)scape-splitviewTests */ = {
+			isa = PBXGroup;
+			children = (
+				FDDFC1741FCAC0A800A5480B /* sound_e_scape_splitviewTests.swift */,
+				FDDFC1761FCAC0A800A5480B /* Info.plist */,
+			);
+			path = "sound(e)scape-splitviewTests";
+			sourceTree = "<group>";
+		};
+		FDDFC17E1FCAC0A800A5480B /* sound(e)scape-splitviewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FDDFC17F1FCAC0A800A5480B /* sound_e_scape_splitviewUITests.swift */,
+				FDDFC1811FCAC0A800A5480B /* Info.plist */,
+			);
+			path = "sound(e)scape-splitviewUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDDFC1591FCAC0A800A5480B /* sound(e)scape-splitview */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDDFC1841FCAC0A800A5480B /* Build configuration list for PBXNativeTarget "sound(e)scape-splitview" */;
+			buildPhases = (
+				FDDFC1561FCAC0A800A5480B /* Sources */,
+				FDDFC1571FCAC0A800A5480B /* Frameworks */,
+				FDDFC1581FCAC0A800A5480B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "sound(e)scape-splitview";
+			productName = "sound(e)scape-splitview";
+			productReference = FDDFC15A1FCAC0A800A5480B /* sound(e)scape-splitview.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FDDFC16F1FCAC0A800A5480B /* sound(e)scape-splitviewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDDFC1871FCAC0A800A5480B /* Build configuration list for PBXNativeTarget "sound(e)scape-splitviewTests" */;
+			buildPhases = (
+				FDDFC16C1FCAC0A800A5480B /* Sources */,
+				FDDFC16D1FCAC0A800A5480B /* Frameworks */,
+				FDDFC16E1FCAC0A800A5480B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDDFC1721FCAC0A800A5480B /* PBXTargetDependency */,
+			);
+			name = "sound(e)scape-splitviewTests";
+			productName = "sound(e)scape-splitviewTests";
+			productReference = FDDFC1701FCAC0A800A5480B /* sound(e)scape-splitviewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FDDFC17A1FCAC0A800A5480B /* sound(e)scape-splitviewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDDFC18A1FCAC0A800A5480B /* Build configuration list for PBXNativeTarget "sound(e)scape-splitviewUITests" */;
+			buildPhases = (
+				FDDFC1771FCAC0A800A5480B /* Sources */,
+				FDDFC1781FCAC0A800A5480B /* Frameworks */,
+				FDDFC1791FCAC0A800A5480B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDDFC17D1FCAC0A800A5480B /* PBXTargetDependency */,
+			);
+			name = "sound(e)scape-splitviewUITests";
+			productName = "sound(e)scape-splitviewUITests";
+			productReference = FDDFC17B1FCAC0A800A5480B /* sound(e)scape-splitviewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDDFC1521FCAC0A800A5480B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = obedcheung;
+				TargetAttributes = {
+					FDDFC1591FCAC0A800A5480B = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					FDDFC16F1FCAC0A800A5480B = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FDDFC1591FCAC0A800A5480B;
+					};
+					FDDFC17A1FCAC0A800A5480B = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FDDFC1591FCAC0A800A5480B;
+					};
+				};
+			};
+			buildConfigurationList = FDDFC1551FCAC0A800A5480B /* Build configuration list for PBXProject "sound(e)scape-splitview" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDDFC1511FCAC0A800A5480B;
+			productRefGroup = FDDFC15B1FCAC0A800A5480B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDDFC1591FCAC0A800A5480B /* sound(e)scape-splitview */,
+				FDDFC16F1FCAC0A800A5480B /* sound(e)scape-splitviewTests */,
+				FDDFC17A1FCAC0A800A5480B /* sound(e)scape-splitviewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDDFC1581FCAC0A800A5480B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDDFC16A1FCAC0A800A5480B /* LaunchScreen.storyboard in Resources */,
+				FDDFC1671FCAC0A800A5480B /* Assets.xcassets in Resources */,
+				FDDFC1651FCAC0A800A5480B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDDFC16E1FCAC0A800A5480B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDDFC1791FCAC0A800A5480B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDDFC1561FCAC0A800A5480B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDDFC15E1FCAC0A800A5480B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDDFC16C1FCAC0A800A5480B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDDFC1751FCAC0A800A5480B /* sound_e_scape_splitviewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDDFC1771FCAC0A800A5480B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDDFC1801FCAC0A800A5480B /* sound_e_scape_splitviewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDDFC1721FCAC0A800A5480B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDDFC1591FCAC0A800A5480B /* sound(e)scape-splitview */;
+			targetProxy = FDDFC1711FCAC0A800A5480B /* PBXContainerItemProxy */;
+		};
+		FDDFC17D1FCAC0A800A5480B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDDFC1591FCAC0A800A5480B /* sound(e)scape-splitview */;
+			targetProxy = FDDFC17C1FCAC0A800A5480B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FDDFC1631FCAC0A800A5480B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDDFC1641FCAC0A800A5480B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FDDFC1681FCAC0A800A5480B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDDFC1691FCAC0A800A5480B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDDFC1821FCAC0A800A5480B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FDDFC1831FCAC0A800A5480B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDDFC1851FCAC0A800A5480B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 38BRJ5C32K;
+				INFOPLIST_FILE = "sound(e)scape-splitview/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "obed.sound-e-scape-splitview";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FDDFC1861FCAC0A800A5480B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 38BRJ5C32K;
+				INFOPLIST_FILE = "sound(e)scape-splitview/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "obed.sound-e-scape-splitview";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FDDFC1881FCAC0A800A5480B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 38BRJ5C32K;
+				INFOPLIST_FILE = "sound(e)scape-splitviewTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "obed.sound-e-scape-splitviewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sound(e)scape-splitview.app/sound(e)scape-splitview";
+			};
+			name = Debug;
+		};
+		FDDFC1891FCAC0A800A5480B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 38BRJ5C32K;
+				INFOPLIST_FILE = "sound(e)scape-splitviewTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "obed.sound-e-scape-splitviewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sound(e)scape-splitview.app/sound(e)scape-splitview";
+			};
+			name = Release;
+		};
+		FDDFC18B1FCAC0A800A5480B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 38BRJ5C32K;
+				INFOPLIST_FILE = "sound(e)scape-splitviewUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "obed.sound-e-scape-splitviewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "sound(e)scape-splitview";
+			};
+			name = Debug;
+		};
+		FDDFC18C1FCAC0A800A5480B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 38BRJ5C32K;
+				INFOPLIST_FILE = "sound(e)scape-splitviewUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "obed.sound-e-scape-splitviewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "sound(e)scape-splitview";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDDFC1551FCAC0A800A5480B /* Build configuration list for PBXProject "sound(e)scape-splitview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDDFC1821FCAC0A800A5480B /* Debug */,
+				FDDFC1831FCAC0A800A5480B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDDFC1841FCAC0A800A5480B /* Build configuration list for PBXNativeTarget "sound(e)scape-splitview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDDFC1851FCAC0A800A5480B /* Debug */,
+				FDDFC1861FCAC0A800A5480B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDDFC1871FCAC0A800A5480B /* Build configuration list for PBXNativeTarget "sound(e)scape-splitviewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDDFC1881FCAC0A800A5480B /* Debug */,
+				FDDFC1891FCAC0A800A5480B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDDFC18A1FCAC0A800A5480B /* Build configuration list for PBXNativeTarget "sound(e)scape-splitviewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDDFC18B1FCAC0A800A5480B /* Debug */,
+				FDDFC18C1FCAC0A800A5480B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDDFC1521FCAC0A800A5480B /* Project object */;
+}
