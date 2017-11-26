@@ -13,6 +13,15 @@
 		FDDFC16A1FCAC0A800A5480B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDDFC1681FCAC0A800A5480B /* LaunchScreen.storyboard */; };
 		FDDFC1751FCAC0A800A5480B /* sound_e_scape_splitviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDFC1741FCAC0A800A5480B /* sound_e_scape_splitviewTests.swift */; };
 		FDDFC1801FCAC0A800A5480B /* sound_e_scape_splitviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDFC17F1FCAC0A800A5480B /* sound_e_scape_splitviewUITests.swift */; };
+		FDDFC1901FCAD71C00A5480B /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDFC18F1FCAD71C00A5480B /* MainTabBarController.swift */; };
+		FDDFC1921FCAD75200A5480B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDFC1911FCAD75200A5480B /* HomeViewController.swift */; };
+		FDDFC1941FCAD76D00A5480B /* NotationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDFC1931FCAD76D00A5480B /* NotationViewController.swift */; };
+		FDDFC1961FCAD78C00A5480B /* ArchiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDFC1951FCAD78C00A5480B /* ArchiveViewController.swift */; };
+		FDDFC1981FCAD7AE00A5480B /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDFC1971FCAD7AE00A5480B /* ScoreViewController.swift */; };
+		FDDFC19A1FCAD7CD00A5480B /* GlossaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDFC1991FCAD7CD00A5480B /* GlossaryViewController.swift */; };
+		FDDFC19C1FCAD9BA00A5480B /* ArchiveSUBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDFC19B1FCAD9BA00A5480B /* ArchiveSUBViewController.swift */; };
+		FDDFC19E1FCAD9C300A5480B /* NotationSUBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDFC19D1FCAD9C300A5480B /* NotationSUBViewController.swift */; };
+		FDDFC1A01FCAD9D000A5480B /* GlossarySUBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDFC19F1FCAD9D000A5480B /* GlossarySUBViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +54,15 @@
 		FDDFC17B1FCAC0A800A5480B /* sound(e)scape-splitviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "sound(e)scape-splitviewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDDFC17F1FCAC0A800A5480B /* sound_e_scape_splitviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sound_e_scape_splitviewUITests.swift; sourceTree = "<group>"; };
 		FDDFC1811FCAC0A800A5480B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDDFC18F1FCAD71C00A5480B /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		FDDFC1911FCAD75200A5480B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		FDDFC1931FCAD76D00A5480B /* NotationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotationViewController.swift; sourceTree = "<group>"; };
+		FDDFC1951FCAD78C00A5480B /* ArchiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchiveViewController.swift; sourceTree = "<group>"; };
+		FDDFC1971FCAD7AE00A5480B /* ScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
+		FDDFC1991FCAD7CD00A5480B /* GlossaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlossaryViewController.swift; sourceTree = "<group>"; };
+		FDDFC19B1FCAD9BA00A5480B /* ArchiveSUBViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchiveSUBViewController.swift; sourceTree = "<group>"; };
+		FDDFC19D1FCAD9C300A5480B /* NotationSUBViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotationSUBViewController.swift; sourceTree = "<group>"; };
+		FDDFC19F1FCAD9D000A5480B /* GlossarySUBViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlossarySUBViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +114,15 @@
 			isa = PBXGroup;
 			children = (
 				FDDFC15D1FCAC0A800A5480B /* AppDelegate.swift */,
+				FDDFC18F1FCAD71C00A5480B /* MainTabBarController.swift */,
+				FDDFC1911FCAD75200A5480B /* HomeViewController.swift */,
+				FDDFC1931FCAD76D00A5480B /* NotationViewController.swift */,
+				FDDFC1951FCAD78C00A5480B /* ArchiveViewController.swift */,
+				FDDFC1971FCAD7AE00A5480B /* ScoreViewController.swift */,
+				FDDFC1991FCAD7CD00A5480B /* GlossaryViewController.swift */,
+				FDDFC19D1FCAD9C300A5480B /* NotationSUBViewController.swift */,
+				FDDFC19B1FCAD9BA00A5480B /* ArchiveSUBViewController.swift */,
+				FDDFC19F1FCAD9D000A5480B /* GlossarySUBViewController.swift */,
 				FDDFC1631FCAC0A800A5480B /* Main.storyboard */,
 				FDDFC1661FCAC0A800A5480B /* Assets.xcassets */,
 				FDDFC1681FCAC0A800A5480B /* LaunchScreen.storyboard */,
@@ -256,7 +283,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDDFC1901FCAD71C00A5480B /* MainTabBarController.swift in Sources */,
+				FDDFC19E1FCAD9C300A5480B /* NotationSUBViewController.swift in Sources */,
 				FDDFC15E1FCAC0A800A5480B /* AppDelegate.swift in Sources */,
+				FDDFC1A01FCAD9D000A5480B /* GlossarySUBViewController.swift in Sources */,
+				FDDFC1941FCAD76D00A5480B /* NotationViewController.swift in Sources */,
+				FDDFC19A1FCAD7CD00A5480B /* GlossaryViewController.swift in Sources */,
+				FDDFC19C1FCAD9BA00A5480B /* ArchiveSUBViewController.swift in Sources */,
+				FDDFC1961FCAD78C00A5480B /* ArchiveViewController.swift in Sources */,
+				FDDFC1921FCAD75200A5480B /* HomeViewController.swift in Sources */,
+				FDDFC1981FCAD7AE00A5480B /* ScoreViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
