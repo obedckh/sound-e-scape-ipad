@@ -36,4 +36,9 @@ class GlossaryViewController: UIViewController {
     }
     */
 
+    override var prefersStatusBarHidden: Bool
+    {
+        return true
+    }
+    
 }

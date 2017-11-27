@@ -8,21 +8,32 @@
 
 import UIKit
 
-var ArchiveCategoryName = ["NATURAL ENVIRONMENT", "ARTIFICIAL ENVIRONMENT", "NATURAL INHABITANT", "ARTIFICIAL INHABITANT", "CONTACT"]
+//var ArchiveCategoryName = ["NATURAL ENVIRONMENT", "ARTIFICIAL ENVIRONMENT", "NATURAL INHABITANT", "ARTIFICIAL INHABITANT", "CONTACT"]
+//var ArchiveCategoryIndex = 0
 
-var ArchiveCategoryIndex = 0
 
-class ArchiveViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+class ArchiveViewController: UIViewController {
     
+    //, UITableViewDataSource, UITableViewDelegate
    
     @IBOutlet weak var ArchiveContainer: UIView!
-    @IBOutlet weak var ArchiveCategoryTable: UITableView!
-    @IBOutlet weak var ArchiveSoundTable: UITableView!
+    @IBOutlet weak var ArchiveSoundContainer: UIView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+      
+/*        let path = Bundle.main.path(forResource: "ArchiveSound", ofType: "json")
+        let url = URL(fileURLWithPath: path!)
+        
+        do{
+        let data = try Data(contentsOf: url)
+            let ArchiveSound = try JSONDecoder().decode([String : [{String}]].self, from: data)
+        
+        } catch {}
+ */
+/*
+  
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -39,12 +50,13 @@ class ArchiveViewController: UIViewController, UITableViewDataSource, UITableVie
         return cell!
     }
     
+    
+*/
     // CHANGE AFTER CREATE SUB-PAGES FOR EACH CATEGORY
     
     // REF = https://www.youtube.com/watch?v=A6Wl8ySrOZI
     
     // CODE: SEE BELOW
-    
     
 /*
      func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
@@ -53,14 +65,29 @@ class ArchiveViewController: UIViewController, UITableViewDataSource, UITableVie
         performSegue(withIdentifier: "toCategory", sender: self)
         
     }
- */
-
+*/
+/*
+     if (NESoundTable.isHidden == true) {
+        NESoundTable.isHidden = false
+     
+     } else {
+     NESoundTable.isHidden = true
+     }
+*/
+    
+    
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
 
-   
+    
+    
+    override var prefersStatusBarHidden: Bool
+    {
+        return true
+    }
+
 
 }

@@ -1,16 +1,14 @@
 //
-//  ArchiveSoundTableViewController.swift
+//  ArchiveSplitDetailTableViewController.swift
 //  sound(e)scape-splitview
 //
-//  Created by Obed Cheung on 27/11/2017.
+//  Created by Obed Cheung on 28/11/2017.
 //  Copyright © 2017 obedcheung. All rights reserved.
 //
 
 import UIKit
 
-
-
-class ArchiveSoundTableViewController: UITableViewController {
+class ArchiveSplitDetailTableViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

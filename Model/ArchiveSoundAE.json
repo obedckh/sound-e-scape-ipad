@@ -1,0 +1,114 @@
+"AESound" : [
+             {
+             "title" : "202gate1"
+             "imagename" : "202gate1"
+             "audioname" : "202gate1"
+             },
+             
+             {
+             "title" : "203octopus1"
+             "imagename" : "203octopus1"
+             "audioname" : "203octopus1"
+             },
+             
+             {
+             "title" : "203octopus2"
+             "imagename" : "203octopus2"
+             "audioname" : "203octopus2"
+             },
+             
+             {
+             "title" : "204fountain1"
+             "imagename" : "204fountain1"
+             "audioname" : "204fountain1"
+             },
+             
+             {
+             "title" : "204fountain2"
+             "imagename" : "204fountain2"
+             "audioname" : "204fountain2"
+             },
+             
+             {
+             "title" : "205ventilation1"
+             "imagename" : "205ventilation1"
+             "audioname" : "205ventilation1"
+             },
+             
+             {
+             "title" : "205ventilation2"
+             "imagename" : "205ventilation2"
+             "audioname" : "205ventilation2"
+             },
+             
+             {
+             "title" : "208escalator1"
+             "imagename" : "208escalator1"
+             "audioname" : "208escalator1"
+             },
+             
+             {
+             "title" : "208escalator2"
+             "imagename" : "208escalator2"
+             "audioname" : "208escalator2"
+             },
+             
+             {
+             "title" : "209trafficlightblink"
+             "imagename" : "209trafficlightblink"
+             "audioname" : "209trafficlightblink"
+             },
+             
+             {
+             "title" : "209trafficlightgreen"
+             "imagename" : "209trafficlightgreen"
+             "audioname" : "209trafficlightgreen"
+             },
+             
+             {
+             "title" : "209trafficlightred"
+             "imagename" : "209trafficlightred"
+             "audioname" : "209trafficlightred"
+             },
+             
+             {
+             "title" : "210announcement1esccanto"
+             "imagename" : "210announcement1esccanto"
+             "audioname" : "210announcement1esccanto"
+             },
+             
+             {
+             "title" : "210announcement2esceng"
+             "imagename" : "210announcement2esceng"
+             "audioname" : "210announcement2esceng"
+             },
+             
+             {
+             "title" : "210announcement3wetfloor"
+             "imagename" : "210announcement3wetfloor"
+             "audioname" : "210announcement3wetfloor"
+             },
+             
+             {
+             "title" : "210announcement4escedge"
+             "imagename" : "210announcement4escedge"
+             "audioname" : "210announcement4escedge"
+             },
+             
+             {
+             "title" : "211gatebuzzer1carpark"
+             "imagename" : "211gatebuzzer1carpark"
+             "audioname" : "211gatebuzzer1carpark"
+             },
+             
+             ],
+}
+
+
+
+AESoundtitle = ["202gate1", ]
+AESoundsymbol = []
+AESoundaudio = []
+AESoundIndex = 0
+
+
