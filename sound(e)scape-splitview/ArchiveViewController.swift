@@ -8,7 +8,12 @@
 
 import UIKit
 
-class ArchiveViewController: UIViewController {
+var ArchiveCategoryName = ["NATURAL ENVIRONMENT", "ARTIFICIAL ENVIRONMENT", "NATURAL INHABITANT", "ARTIFICIAL INHABITANT", "CONTACT"]
+
+var ArchiveCategoryIndex = 0
+
+class ArchiveViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+    
    
     @IBOutlet weak var ArchiveContainer: UIView!
     @IBOutlet weak var ArchiveCategoryTable: UITableView!
@@ -19,6 +24,36 @@ class ArchiveViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return ArchiveCategoryName.count
+        
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
+        let cell = ArchiveCategoryTable.dequeueReusableCell(withIdentifier: "ArchiveCategoryCell")
+        
+        cell?.textLabel?.text = ArchiveCategoryName[indexPath.row]
+        
+        return cell!
+    }
+    
+    // CHANGE AFTER CREATE SUB-PAGES FOR EACH CATEGORY
+    
+    // REF = https://www.youtube.com/watch?v=A6Wl8ySrOZI
+    
+    // CODE: SEE BELOW
+    
+    
+/*
+     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        ArchiveCategoryIndex = indexPath.row
+        performSegue(withIdentifier: "toCategory", sender: self)
+        
+    }
+ */
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -26,14 +61,6 @@ class ArchiveViewController: UIViewController {
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
+   
 
 }

@@ -22,6 +22,13 @@
 		FDDFC19C1FCAD9BA00A5480B /* ArchiveSUBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDFC19B1FCAD9BA00A5480B /* ArchiveSUBViewController.swift */; };
 		FDDFC19E1FCAD9C300A5480B /* NotationSUBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDFC19D1FCAD9C300A5480B /* NotationSUBViewController.swift */; };
 		FDDFC1A01FCAD9D000A5480B /* GlossarySUBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDFC19F1FCAD9D000A5480B /* GlossarySUBViewController.swift */; };
+		FDE639D81FCBD23500859CFE /* ArchiveSoundTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE639D71FCBD23500859CFE /* ArchiveSoundTableViewController.swift */; };
+		FDE639DA1FCBDAD200859CFE /* ArchiveSound.json in Resources */ = {isa = PBXBuildFile; fileRef = FDE639D91FCBDAD200859CFE /* ArchiveSound.json */; };
+		FDE639DE1FCBEA8E00859CFE /* ArchiveSoundNE.json in Resources */ = {isa = PBXBuildFile; fileRef = FDE639DD1FCBEA8E00859CFE /* ArchiveSoundNE.json */; };
+		FDE639E01FCBEAA300859CFE /* ArchiveSoundAE.json in Resources */ = {isa = PBXBuildFile; fileRef = FDE639DF1FCBEAA300859CFE /* ArchiveSoundAE.json */; };
+		FDE639E21FCBEAB800859CFE /* ArchiveSoundNI.json in Resources */ = {isa = PBXBuildFile; fileRef = FDE639E11FCBEAB800859CFE /* ArchiveSoundNI.json */; };
+		FDE639E41FCBEACC00859CFE /* ArchiveSoundAI.json in Resources */ = {isa = PBXBuildFile; fileRef = FDE639E31FCBEACC00859CFE /* ArchiveSoundAI.json */; };
+		FDE639E61FCBEADF00859CFE /* ArchiveSoundC.json in Resources */ = {isa = PBXBuildFile; fileRef = FDE639E51FCBEADF00859CFE /* ArchiveSoundC.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +70,13 @@
 		FDDFC19B1FCAD9BA00A5480B /* ArchiveSUBViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchiveSUBViewController.swift; sourceTree = "<group>"; };
 		FDDFC19D1FCAD9C300A5480B /* NotationSUBViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotationSUBViewController.swift; sourceTree = "<group>"; };
 		FDDFC19F1FCAD9D000A5480B /* GlossarySUBViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlossarySUBViewController.swift; sourceTree = "<group>"; };
+		FDE639D71FCBD23500859CFE /* ArchiveSoundTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchiveSoundTableViewController.swift; sourceTree = "<group>"; };
+		FDE639D91FCBDAD200859CFE /* ArchiveSound.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ArchiveSound.json; sourceTree = "<group>"; };
+		FDE639DD1FCBEA8E00859CFE /* ArchiveSoundNE.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ArchiveSoundNE.json; sourceTree = "<group>"; };
+		FDE639DF1FCBEAA300859CFE /* ArchiveSoundAE.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ArchiveSoundAE.json; sourceTree = "<group>"; };
+		FDE639E11FCBEAB800859CFE /* ArchiveSoundNI.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ArchiveSoundNI.json; sourceTree = "<group>"; };
+		FDE639E31FCBEACC00859CFE /* ArchiveSoundAI.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ArchiveSoundAI.json; sourceTree = "<group>"; };
+		FDE639E51FCBEADF00859CFE /* ArchiveSoundC.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ArchiveSoundC.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				FDDFC15C1FCAC0A800A5480B /* sound(e)scape-splitview */,
+				FDE639E71FCBEC7200859CFE /* Model */,
 				FDDFC1731FCAC0A800A5480B /* sound(e)scape-splitviewTests */,
 				FDDFC17E1FCAC0A800A5480B /* sound(e)scape-splitviewUITests */,
 				FDDFC15B1FCAC0A800A5480B /* Products */,
@@ -124,6 +139,7 @@
 				FDDFC19B1FCAD9BA00A5480B /* ArchiveSUBViewController.swift */,
 				FDDFC19F1FCAD9D000A5480B /* GlossarySUBViewController.swift */,
 				FDDFC1631FCAC0A800A5480B /* Main.storyboard */,
+				FDE639D71FCBD23500859CFE /* ArchiveSoundTableViewController.swift */,
 				FDDFC1661FCAC0A800A5480B /* Assets.xcassets */,
 				FDDFC1681FCAC0A800A5480B /* LaunchScreen.storyboard */,
 				FDDFC16B1FCAC0A800A5480B /* Info.plist */,
@@ -147,6 +163,19 @@
 				FDDFC1811FCAC0A800A5480B /* Info.plist */,
 			);
 			path = "sound(e)scape-splitviewUITests";
+			sourceTree = "<group>";
+		};
+		FDE639E71FCBEC7200859CFE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FDE639DD1FCBEA8E00859CFE /* ArchiveSoundNE.json */,
+				FDE639DF1FCBEAA300859CFE /* ArchiveSoundAE.json */,
+				FDE639E11FCBEAB800859CFE /* ArchiveSoundNI.json */,
+				FDE639E31FCBEACC00859CFE /* ArchiveSoundAI.json */,
+				FDE639E51FCBEADF00859CFE /* ArchiveSoundC.json */,
+				FDE639D91FCBDAD200859CFE /* ArchiveSound.json */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,9 +285,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDE639E41FCBEACC00859CFE /* ArchiveSoundAI.json in Resources */,
+				FDE639E21FCBEAB800859CFE /* ArchiveSoundNI.json in Resources */,
+				FDE639E01FCBEAA300859CFE /* ArchiveSoundAE.json in Resources */,
+				FDE639DA1FCBDAD200859CFE /* ArchiveSound.json in Resources */,
+				FDE639DE1FCBEA8E00859CFE /* ArchiveSoundNE.json in Resources */,
 				FDDFC16A1FCAC0A800A5480B /* LaunchScreen.storyboard in Resources */,
 				FDDFC1671FCAC0A800A5480B /* Assets.xcassets in Resources */,
 				FDDFC1651FCAC0A800A5480B /* Main.storyboard in Resources */,
+				FDE639E61FCBEADF00859CFE /* ArchiveSoundC.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +326,7 @@
 				FDDFC19A1FCAD7CD00A5480B /* GlossaryViewController.swift in Sources */,
 				FDDFC19C1FCAD9BA00A5480B /* ArchiveSUBViewController.swift in Sources */,
 				FDDFC1961FCAD78C00A5480B /* ArchiveViewController.swift in Sources */,
+				FDE639D81FCBD23500859CFE /* ArchiveSoundTableViewController.swift in Sources */,
 				FDDFC1921FCAD75200A5480B /* HomeViewController.swift in Sources */,
 				FDDFC1981FCAD7AE00A5480B /* ScoreViewController.swift in Sources */,
 			);
