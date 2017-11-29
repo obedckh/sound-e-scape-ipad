@@ -17,7 +17,6 @@ class ArchiveViewController: UIViewController {
     //, UITableViewDataSource, UITableViewDelegate
    
     @IBOutlet weak var ArchiveContainer: UIView!
-    @IBOutlet weak var ArchiveSoundContainer: UIView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
