@@ -1,34 +1,27 @@
 //
-//  MainTabBarController.swift
+//  OfListenerViewController.swift
 //  sound(e)scape-splitview
 //
-//  Created by Obed Cheung on 26/11/2017.
+//  Created by Obed Cheung on 1/12/2017.
 //  Copyright © 2017 obedcheung. All rights reserved.
 //
 
 import UIKit
 
-class MainTabBarController: UITabBarController {
-    
-    
+class OfListenerViewController: UIViewController {
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
 
-    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
-    
-    override var prefersStatusBarHidden: Bool
-    {
-        return true
-    }
-    
+
     /*
     // MARK: - Navigation
 
@@ -38,5 +31,9 @@ class MainTabBarController: UITabBarController {
         // Pass the selected object to the new view controller.
     }
     */
+    override var prefersStatusBarHidden: Bool
+    {
+        return true
+    }
 
 }

@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD0042B91FCFDEF6001DD857 /* ArchiveCategoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0042B81FCFDEF6001DD857 /* ArchiveCategoryTableViewCell.swift */; };
+		FD0042BB1FCFE4E1001DD857 /* NETableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0042BA1FCFE4E1001DD857 /* NETableViewCell.swift */; };
+		FD0042BD1FCFE4E7001DD857 /* AETableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0042BC1FCFE4E7001DD857 /* AETableViewCell.swift */; };
+		FD0042BF1FCFE4ED001DD857 /* NITableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0042BE1FCFE4ED001DD857 /* NITableViewCell.swift */; };
+		FD0042C11FCFE4F4001DD857 /* AITableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0042C01FCFE4F4001DD857 /* AITableViewCell.swift */; };
+		FD0042C31FCFE4FB001DD857 /* CTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0042C21FCFE4FB001DD857 /* CTableViewCell.swift */; };
+		FD0042D31FD1106F001DD857 /* OfSoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0042D21FD1106F001DD857 /* OfSoundViewController.swift */; };
+		FD0042D51FD11078001DD857 /* OfSpaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0042D41FD11078001DD857 /* OfSpaceViewController.swift */; };
+		FD0042D71FD11084001DD857 /* OfListenerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0042D61FD11084001DD857 /* OfListenerViewController.swift */; };
+		FD0042D91FD11390001DD857 /* NotationNewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0042D81FD11390001DD857 /* NotationNewViewController.swift */; };
 		FDC762AA1FCEC39B00E0626A /* 403fishing.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FDC762A91FCEC39A00E0626A /* 403fishing.mp3 */; };
 		FDDFC15E1FCAC0A800A5480B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDFC15D1FCAC0A800A5480B /* AppDelegate.swift */; };
 		FDDFC1651FCAC0A800A5480B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDDFC1631FCAC0A800A5480B /* Main.storyboard */; };
@@ -16,12 +26,10 @@
 		FDDFC1801FCAC0A800A5480B /* sound_e_scape_splitviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDFC17F1FCAC0A800A5480B /* sound_e_scape_splitviewUITests.swift */; };
 		FDDFC1901FCAD71C00A5480B /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDFC18F1FCAD71C00A5480B /* MainTabBarController.swift */; };
 		FDDFC1921FCAD75200A5480B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDFC1911FCAD75200A5480B /* HomeViewController.swift */; };
-		FDDFC1941FCAD76D00A5480B /* NotationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDFC1931FCAD76D00A5480B /* NotationViewController.swift */; };
 		FDDFC1961FCAD78C00A5480B /* ArchiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDFC1951FCAD78C00A5480B /* ArchiveViewController.swift */; };
 		FDDFC1981FCAD7AE00A5480B /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDFC1971FCAD7AE00A5480B /* ScoreViewController.swift */; };
 		FDDFC19A1FCAD7CD00A5480B /* GlossaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDFC1991FCAD7CD00A5480B /* GlossaryViewController.swift */; };
 		FDDFC19C1FCAD9BA00A5480B /* ArchiveSUBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDFC19B1FCAD9BA00A5480B /* ArchiveSUBViewController.swift */; };
-		FDDFC19E1FCAD9C300A5480B /* NotationSUBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDFC19D1FCAD9C300A5480B /* NotationSUBViewController.swift */; };
 		FDDFC1A01FCAD9D000A5480B /* GlossarySUBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDFC19F1FCAD9D000A5480B /* GlossarySUBViewController.swift */; };
 		FDE639DA1FCBDAD200859CFE /* ArchiveSound.json in Resources */ = {isa = PBXBuildFile; fileRef = FDE639D91FCBDAD200859CFE /* ArchiveSound.json */; };
 		FDE639DE1FCBEA8E00859CFE /* ArchiveSoundArray.json in Resources */ = {isa = PBXBuildFile; fileRef = FDE639DD1FCBEA8E00859CFE /* ArchiveSoundArray.json */; };
@@ -164,6 +172,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FD0042B81FCFDEF6001DD857 /* ArchiveCategoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchiveCategoryTableViewCell.swift; sourceTree = "<group>"; };
+		FD0042BA1FCFE4E1001DD857 /* NETableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NETableViewCell.swift; sourceTree = "<group>"; };
+		FD0042BC1FCFE4E7001DD857 /* AETableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AETableViewCell.swift; sourceTree = "<group>"; };
+		FD0042BE1FCFE4ED001DD857 /* NITableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NITableViewCell.swift; sourceTree = "<group>"; };
+		FD0042C01FCFE4F4001DD857 /* AITableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AITableViewCell.swift; sourceTree = "<group>"; };
+		FD0042C21FCFE4FB001DD857 /* CTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTableViewCell.swift; sourceTree = "<group>"; };
+		FD0042D21FD1106F001DD857 /* OfSoundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfSoundViewController.swift; sourceTree = "<group>"; };
+		FD0042D41FD11078001DD857 /* OfSpaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfSpaceViewController.swift; sourceTree = "<group>"; };
+		FD0042D61FD11084001DD857 /* OfListenerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfListenerViewController.swift; sourceTree = "<group>"; };
+		FD0042D81FD11390001DD857 /* NotationNewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotationNewViewController.swift; sourceTree = "<group>"; };
 		FDC762A91FCEC39A00E0626A /* 403fishing.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 403fishing.mp3; sourceTree = "<group>"; };
 		FDDFC15A1FCAC0A800A5480B /* sound(e)scape-splitview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "sound(e)scape-splitview.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDDFC15D1FCAC0A800A5480B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -179,12 +197,10 @@
 		FDDFC1811FCAC0A800A5480B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FDDFC18F1FCAD71C00A5480B /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		FDDFC1911FCAD75200A5480B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		FDDFC1931FCAD76D00A5480B /* NotationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotationViewController.swift; sourceTree = "<group>"; };
 		FDDFC1951FCAD78C00A5480B /* ArchiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchiveViewController.swift; sourceTree = "<group>"; };
 		FDDFC1971FCAD7AE00A5480B /* ScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
 		FDDFC1991FCAD7CD00A5480B /* GlossaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlossaryViewController.swift; sourceTree = "<group>"; };
 		FDDFC19B1FCAD9BA00A5480B /* ArchiveSUBViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchiveSUBViewController.swift; sourceTree = "<group>"; };
-		FDDFC19D1FCAD9C300A5480B /* NotationSUBViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotationSUBViewController.swift; sourceTree = "<group>"; };
 		FDDFC19F1FCAD9D000A5480B /* GlossarySUBViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlossarySUBViewController.swift; sourceTree = "<group>"; };
 		FDE639D91FCBDAD200859CFE /* ArchiveSound.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ArchiveSound.json; sourceTree = "<group>"; };
 		FDE639DD1FCBEA8E00859CFE /* ArchiveSoundArray.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ArchiveSoundArray.json; sourceTree = "<group>"; };
@@ -367,20 +383,26 @@
 				FDDFC15D1FCAC0A800A5480B /* AppDelegate.swift */,
 				FDDFC18F1FCAD71C00A5480B /* MainTabBarController.swift */,
 				FDDFC1911FCAD75200A5480B /* HomeViewController.swift */,
-				FDDFC1931FCAD76D00A5480B /* NotationViewController.swift */,
 				FDDFC1951FCAD78C00A5480B /* ArchiveViewController.swift */,
-				FDDFC1971FCAD7AE00A5480B /* ScoreViewController.swift */,
-				FDDFC1991FCAD7CD00A5480B /* GlossaryViewController.swift */,
-				FDDFC19D1FCAD9C300A5480B /* NotationSUBViewController.swift */,
-				FDDFC19B1FCAD9BA00A5480B /* ArchiveSUBViewController.swift */,
-				FDDFC19F1FCAD9D000A5480B /* GlossarySUBViewController.swift */,
-				FDDFC1631FCAC0A800A5480B /* Main.storyboard */,
+				FD0042BA1FCFE4E1001DD857 /* NETableViewCell.swift */,
+				FD0042BC1FCFE4E7001DD857 /* AETableViewCell.swift */,
+				FD0042BE1FCFE4ED001DD857 /* NITableViewCell.swift */,
+				FD0042C01FCFE4F4001DD857 /* AITableViewCell.swift */,
+				FD0042C21FCFE4FB001DD857 /* CTableViewCell.swift */,
 				FDE6BD741FCE8B5D005FAF52 /* NEViewController.swift */,
 				FDE6BD761FCE8B63005FAF52 /* AEViewController.swift */,
 				FDE6BD781FCE8B69005FAF52 /* NIViewController.swift */,
 				FDE6BD7A1FCE8B70005FAF52 /* AIViewController.swift */,
 				FDE6BD7C1FCE8B77005FAF52 /* CViewController.swift */,
-				FDE6BD721FCE820D005FAF52 /* ArchiveCategoryViewController.swift */,
+				FDDFC1971FCAD7AE00A5480B /* ScoreViewController.swift */,
+				FDDFC1991FCAD7CD00A5480B /* GlossaryViewController.swift */,
+				FDDFC19B1FCAD9BA00A5480B /* ArchiveSUBViewController.swift */,
+				FDDFC19F1FCAD9D000A5480B /* GlossarySUBViewController.swift */,
+				FDDFC1631FCAC0A800A5480B /* Main.storyboard */,
+				FD0042D81FD11390001DD857 /* NotationNewViewController.swift */,
+				FD0042D21FD1106F001DD857 /* OfSoundViewController.swift */,
+				FD0042D41FD11078001DD857 /* OfSpaceViewController.swift */,
+				FD0042D61FD11084001DD857 /* OfListenerViewController.swift */,
 				FDDFC1661FCAC0A800A5480B /* Assets.xcassets */,
 				FDDFC1681FCAC0A800A5480B /* LaunchScreen.storyboard */,
 				FDDFC16B1FCAC0A800A5480B /* Info.plist */,
@@ -409,6 +431,8 @@
 		FDE639E71FCBEC7200859CFE /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				FDE6BD721FCE820D005FAF52 /* ArchiveCategoryViewController.swift */,
+				FD0042B81FCFDEF6001DD857 /* ArchiveCategoryTableViewCell.swift */,
 				FDE63A041FCC7EDA00859CFE /* ArchiveSplitMasterCategoryModel.swift */,
 				FDE639DD1FCBEA8E00859CFE /* ArchiveSoundArray.json */,
 				FDE639D91FCBDAD200859CFE /* ArchiveSound.json */,
@@ -817,24 +841,32 @@
 			files = (
 				FDE63A051FCC7EDA00859CFE /* ArchiveSplitMasterCategoryModel.swift in Sources */,
 				FDDFC1901FCAD71C00A5480B /* MainTabBarController.swift in Sources */,
-				FDDFC19E1FCAD9C300A5480B /* NotationSUBViewController.swift in Sources */,
 				FDE639ED1FCBEE2C00859CFE /* ArchiveSoundAE.swift in Sources */,
 				FDDFC15E1FCAC0A800A5480B /* AppDelegate.swift in Sources */,
 				FDDFC1A01FCAD9D000A5480B /* GlossarySUBViewController.swift in Sources */,
-				FDDFC1941FCAD76D00A5480B /* NotationViewController.swift in Sources */,
 				FDE6BD791FCE8B69005FAF52 /* NIViewController.swift in Sources */,
+				FD0042BF1FCFE4ED001DD857 /* NITableViewCell.swift in Sources */,
+				FD0042C11FCFE4F4001DD857 /* AITableViewCell.swift in Sources */,
 				FDE639EB1FCBEE2100859CFE /* ArchiveSoundNI.swift in Sources */,
 				FDE639E91FCBEE0D00859CFE /* ArchiveSoundNE.swift in Sources */,
 				FDE639EF1FCBEE3D00859CFE /* ArchiveSoundAI.swift in Sources */,
+				FD0042C31FCFE4FB001DD857 /* CTableViewCell.swift in Sources */,
+				FD0042D51FD11078001DD857 /* OfSpaceViewController.swift in Sources */,
 				FDDFC19A1FCAD7CD00A5480B /* GlossaryViewController.swift in Sources */,
 				FDDFC19C1FCAD9BA00A5480B /* ArchiveSUBViewController.swift in Sources */,
 				FDDFC1961FCAD78C00A5480B /* ArchiveViewController.swift in Sources */,
+				FD0042D71FD11084001DD857 /* OfListenerViewController.swift in Sources */,
+				FD0042D91FD11390001DD857 /* NotationNewViewController.swift in Sources */,
+				FD0042BB1FCFE4E1001DD857 /* NETableViewCell.swift in Sources */,
 				FDE6BD771FCE8B63005FAF52 /* AEViewController.swift in Sources */,
 				FDE639F11FCBEE4800859CFE /* ArchiveSoundC.swift in Sources */,
 				FDDFC1921FCAD75200A5480B /* HomeViewController.swift in Sources */,
+				FD0042B91FCFDEF6001DD857 /* ArchiveCategoryTableViewCell.swift in Sources */,
 				FDDFC1981FCAD7AE00A5480B /* ScoreViewController.swift in Sources */,
 				FDE6BD7D1FCE8B77005FAF52 /* CViewController.swift in Sources */,
+				FD0042D31FD1106F001DD857 /* OfSoundViewController.swift in Sources */,
 				FDE6BD731FCE820D005FAF52 /* ArchiveCategoryViewController.swift in Sources */,
+				FD0042BD1FCFE4E7001DD857 /* AETableViewCell.swift in Sources */,
 				FDE6BD7B1FCE8B70005FAF52 /* AIViewController.swift in Sources */,
 				FDE6BD751FCE8B5D005FAF52 /* NEViewController.swift in Sources */,
 			);

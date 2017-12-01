@@ -8,7 +8,7 @@
 
 import UIKit
 
-var CategoryLbl = ["Natural Environment", "Artificial Environment", "Natural Inhabitant", "Artificial Inhabitant", "Contact"]
+var CategoryName = ["Natural Environment", "Artificial Environment", "Natural Inhabitant", "Artificial Inhabitant", "Contact"]
 var CategoryImg = ["Natural Environment Logo", "Artificial Environment Logo","Natural Inhabitant Logo","Artificial Inhabitant Logo", "Contact Logo"]
 var CategoryIndex = 0
 
@@ -19,23 +19,28 @@ class ArchiveCategoryViewController: UIViewController, UITableViewDataSource, UI
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
       
-        return CategoryLbl.count
+        return CategoryName.count
         
     }
      
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        let cell = categoryTable.dequeueReusableCell(withIdentifier: "ArchiveCategoryCell")
+        let cell = categoryTable.dequeueReusableCell(withIdentifier: "ArchiveCategoryCell") as! ArchiveCategoryTableViewCell
        
-        cell?.textLabel?.text = CategoryLbl[indexPath.row]
+        cell.CategoryLbl.text = CategoryName[indexPath.row]
+        cell.CategoryLogo.image = UIImage(named: CategoryImg[indexPath.row])
         
-        return cell!
+        return cell
         
     }
     
 
     override func viewDidLoad() {
+        
+        categoryTable.delegate = self
+        categoryTable.dataSource = self
+        
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
@@ -43,7 +48,7 @@ class ArchiveCategoryViewController: UIViewController, UITableViewDataSource, UI
 
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
-       CategoryIndex  = indexPath.row
+       CategoryIndex = indexPath.row
         if indexPath.row == 0
         {
             performSegue(withIdentifier: "NEsegue", sender: self)

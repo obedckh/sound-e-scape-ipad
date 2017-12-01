@@ -14,9 +14,15 @@ import UIKit
 
 class ArchiveViewController: UIViewController {
     
-    //, UITableViewDataSource, UITableViewDelegate
-   
-    @IBOutlet weak var ArchiveContainer: UIView!
+    @IBOutlet weak var Archivetitle: UILabel!
+    @IBOutlet weak var ArchiveLbl: UILabel!
+    
+    @IBOutlet weak var NEBtn: UIButton!
+    @IBOutlet weak var AEBtn: UIButton!
+    @IBOutlet weak var NIBtn: UIButton!
+    @IBOutlet weak var AIBtn: UIButton!
+    @IBOutlet weak var CBtn: UIButton!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -76,17 +82,45 @@ class ArchiveViewController: UIViewController {
     
     
     }
-    override func didReceiveMemoryWarning() {
+    
+    @IBAction func NE(_ sender: UIButton)
+    {
+        performSegue(withIdentifier: "NEsegue", sender: self)
+    }
+    
+    @IBAction func AE(_ sender: UIButton)
+    {
+        performSegue(withIdentifier: "AEsegue", sender: self)
+    }
+    
+    @IBAction func NI(_ sender: UIButton)
+    {
+        performSegue(withIdentifier: "NIsegue", sender: self)
+    }
+    
+    @IBAction func AI(_ sender: UIButton)
+    {
+        performSegue(withIdentifier: "AIsegue", sender: self)
+    }
+    
+    @IBAction func C(_ sender: UIButton)
+    {
+        performSegue(withIdentifier: "Csegue", sender: self)
+    }
+    
+    @IBAction func unwindtoArchive(segue: UIStoryboardSegue)
+    {
+        
+    }
+    override func didReceiveMemoryWarning()
+    {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
 
-    
-    
     override var prefersStatusBarHidden: Bool
     {
         return true
     }
-
 
 }

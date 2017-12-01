@@ -6,6 +6,25 @@
 //  Copyright © 2017 obedcheung. All rights reserved.
 //
 
+/*
+REPLACE
+ 
+     cell?.textLabel?.text = NESoundtitle[indexPath.row].capitalized
+     return cell!
+ 
+ 
+TO
+ 
+     cell.CategoryLbl.text = CategoryName[indexPath.row]
+     cell.CategoryLogo.image = UIImage(named: CategoryImg[indexPath.row])
+ 
+     return cell
+ 
+ //CategoryLbl, CategoryLogo changed to correpsond name of links
+ // should be only image needed if decide to use only one image containing graphics and name and symbol!
+ 
+*/
+
 import UIKit
 import AVFoundation
 
