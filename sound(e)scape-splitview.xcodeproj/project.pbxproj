@@ -183,6 +183,36 @@
 		FD0042D61FD11084001DD857 /* OfListenerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfListenerViewController.swift; sourceTree = "<group>"; };
 		FD0042D81FD11390001DD857 /* NotationNewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotationNewViewController.swift; sourceTree = "<group>"; };
 		FDC762A91FCEC39A00E0626A /* 403fishing.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 403fishing.mp3; sourceTree = "<group>"; };
+		FDDF5D381FD3E26000742A71 /* A10warning.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = A10warning.png; sourceTree = "<group>"; };
+		FDDF5D391FD3E26000742A71 /* A11speech.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = A11speech.png; sourceTree = "<group>"; };
+		FDDF5D3A1FD3E26000742A71 /* A12music.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = A12music.png; sourceTree = "<group>"; };
+		FDDF5D3B1FD3E26000742A71 /* A1basicstaff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = A1basicstaff.png; sourceTree = "<group>"; };
+		FDDF5D3C1FD3E26000742A71 /* A2basicstaff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = A2basicstaff.png; sourceTree = "<group>"; };
+		FDDF5D3D1FD3E26000742A71 /* A3basicstaff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = A3basicstaff.png; sourceTree = "<group>"; };
+		FDDF5D3E1FD3E26000742A71 /* A4ae.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = A4ae.png; sourceTree = "<group>"; };
+		FDDF5D3F1FD3E26000742A71 /* A4ai.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = A4ai.png; sourceTree = "<group>"; };
+		FDDF5D401FD3E26000742A71 /* A4c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = A4c.png; sourceTree = "<group>"; };
+		FDDF5D411FD3E26000742A71 /* A4ne.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = A4ne.png; sourceTree = "<group>"; };
+		FDDF5D421FD3E26000742A71 /* A4ni.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = A4ni.png; sourceTree = "<group>"; };
+		FDDF5D431FD3E26000742A71 /* A5articulationrhythm1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = A5articulationrhythm1.png; sourceTree = "<group>"; };
+		FDDF5D441FD3E26000742A71 /* A5articulationrhythm2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = A5articulationrhythm2.png; sourceTree = "<group>"; };
+		FDDF5D451FD3E26000742A71 /* A6articulationwavy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = A6articulationwavy.png; sourceTree = "<group>"; };
+		FDDF5D461FD3E26000742A71 /* A7articulationsustain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = A7articulationsustain.png; sourceTree = "<group>"; };
+		FDDF5D471FD3E26000742A71 /* A8volumeBig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = A8volumeBig.png; sourceTree = "<group>"; };
+		FDDF5D481FD3E26000742A71 /* A8volumneSmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = A8volumneSmall.png; sourceTree = "<group>"; };
+		FDDF5D491FD3E26000742A71 /* A9instruction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = A9instruction.png; sourceTree = "<group>"; };
+		FDDF5D4A1FD3E26000742A71 /* B1timesign.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = B1timesign.png; sourceTree = "<group>"; };
+		FDDF5D4B1FD3E26000742A71 /* B2bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = B2bar.png; sourceTree = "<group>"; };
+		FDDF5D4C1FD3E26000742A71 /* B3rest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = B3rest.png; sourceTree = "<group>"; };
+		FDDF5D4D1FD3E26000742A71 /* B4enclosure1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = B4enclosure1.png; sourceTree = "<group>"; };
+		FDDF5D4E1FD3E26000742A71 /* B5enclosure2reverb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = B5enclosure2reverb.png; sourceTree = "<group>"; };
+		FDDF5D4F1FD3E26000742A71 /* B6enclosureMuffle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = B6enclosureMuffle.png; sourceTree = "<group>"; };
+		FDDF5D501FD3E26000742A71 /* B7enclosureIso.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = B7enclosureIso.png; sourceTree = "<group>"; };
+		FDDF5D511FD3E26000742A71 /* C1advstaffpro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = C1advstaffpro.png; sourceTree = "<group>"; };
+		FDDF5D521FD3E26000742A71 /* C2advstaffChgDis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = C2advstaffChgDis.png; sourceTree = "<group>"; };
+		FDDF5D531FD3E26000742A71 /* C3advstaffvis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = C3advstaffvis.png; sourceTree = "<group>"; };
+		FDDF5D541FD3E26000742A71 /* C4listernerFoc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = C4listernerFoc.png; sourceTree = "<group>"; };
+		FDDF5D551FD3E26000742A71 /* C5listenerPsy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = C5listenerPsy.png; sourceTree = "<group>"; };
 		FDDFC15A1FCAC0A800A5480B /* sound(e)scape-splitview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "sound(e)scape-splitview.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDDFC15D1FCAC0A800A5480B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FDDFC1641FCAC0A800A5480B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -350,6 +380,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FDDF5D371FD3E26000742A71 /* NotationExplain */ = {
+			isa = PBXGroup;
+			children = (
+				FDDF5D381FD3E26000742A71 /* A10warning.png */,
+				FDDF5D391FD3E26000742A71 /* A11speech.png */,
+				FDDF5D3A1FD3E26000742A71 /* A12music.png */,
+				FDDF5D3B1FD3E26000742A71 /* A1basicstaff.png */,
+				FDDF5D3C1FD3E26000742A71 /* A2basicstaff.png */,
+				FDDF5D3D1FD3E26000742A71 /* A3basicstaff.png */,
+				FDDF5D3E1FD3E26000742A71 /* A4ae.png */,
+				FDDF5D3F1FD3E26000742A71 /* A4ai.png */,
+				FDDF5D401FD3E26000742A71 /* A4c.png */,
+				FDDF5D411FD3E26000742A71 /* A4ne.png */,
+				FDDF5D421FD3E26000742A71 /* A4ni.png */,
+				FDDF5D431FD3E26000742A71 /* A5articulationrhythm1.png */,
+				FDDF5D441FD3E26000742A71 /* A5articulationrhythm2.png */,
+				FDDF5D451FD3E26000742A71 /* A6articulationwavy.png */,
+				FDDF5D461FD3E26000742A71 /* A7articulationsustain.png */,
+				FDDF5D471FD3E26000742A71 /* A8volumeBig.png */,
+				FDDF5D481FD3E26000742A71 /* A8volumneSmall.png */,
+				FDDF5D491FD3E26000742A71 /* A9instruction.png */,
+				FDDF5D4A1FD3E26000742A71 /* B1timesign.png */,
+				FDDF5D4B1FD3E26000742A71 /* B2bar.png */,
+				FDDF5D4C1FD3E26000742A71 /* B3rest.png */,
+				FDDF5D4D1FD3E26000742A71 /* B4enclosure1.png */,
+				FDDF5D4E1FD3E26000742A71 /* B5enclosure2reverb.png */,
+				FDDF5D4F1FD3E26000742A71 /* B6enclosureMuffle.png */,
+				FDDF5D501FD3E26000742A71 /* B7enclosureIso.png */,
+				FDDF5D511FD3E26000742A71 /* C1advstaffpro.png */,
+				FDDF5D521FD3E26000742A71 /* C2advstaffChgDis.png */,
+				FDDF5D531FD3E26000742A71 /* C3advstaffvis.png */,
+				FDDF5D541FD3E26000742A71 /* C4listernerFoc.png */,
+				FDDF5D551FD3E26000742A71 /* C5listenerPsy.png */,
+			);
+			path = NotationExplain;
+			sourceTree = "<group>";
+		};
 		FDDFC1511FCAC0A800A5480B = {
 			isa = PBXGroup;
 			children = (
@@ -374,6 +441,7 @@
 		FDDFC15C1FCAC0A800A5480B /* sound(e)scape-splitview */ = {
 			isa = PBXGroup;
 			children = (
+				FDDF5D371FD3E26000742A71 /* NotationExplain */,
 				FDE63B681FCD2DA800859CFE /* CategoryLogo */,
 				FDE63AEF1FCD2D7400859CFE /* AE */,
 				FDE63AC41FCD2D7400859CFE /* AI */,

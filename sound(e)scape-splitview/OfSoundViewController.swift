@@ -7,8 +7,15 @@
 //
 
 import UIKit
+import AVFoundation
 
 class OfSoundViewController: UIViewController {
+    
+    var SoundaudioPlayer = AVAudioPlayer()
+    
+    @IBOutlet weak var A1btn: UIButton!
+    @IBOutlet weak var A2btn: UIButton!
+    @IBOutlet weak var A3btn: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,17 +27,7 @@ class OfSoundViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
     override var prefersStatusBarHidden: Bool
     {
         return true
